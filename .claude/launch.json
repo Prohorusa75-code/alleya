@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "alleya-out",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5530", "--directory", "out"],
+      "port": 5530
+    },
+    {
+      "name": "alleya-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "-p", "5531"],
+      "port": 5531
+    }
+  ]
+}
